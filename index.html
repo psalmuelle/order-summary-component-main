@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
- <link rel="stylesheet" href="main.css">
-  <title>Order summary card</title>
-
-</head>
-<body>
-
-
+    <link rel="stylesheet" href="main.css" />
+    <title>Order summary card</title>
+  </head>
+  <body>
     <main class="container">
-<img src="./images/illustration-hero.svg" alt="illustration-hero" class="hero">
-<h1>Order Summary</h1>
-<p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <img
+        src="./images/illustration-hero.svg"
+        alt="illustration-hero"
+        class="hero"
+      />
+      <h1>Order Summary</h1>
+      <p
+        >You can now listen to millions of songs, audiobooks, and podcasts on
+        any device anywhere you like!</p
+      >
 
-<div class="plan" role="group">
-    <div class="display-plan">
-<img src="./images/icon-music.svg" alt="icon-music">
-<div id="price">
-<h2>Annual Plan</h2>
-<p>$59.99/year</p>
-</div>
+      <div class="plan" role="group">
+        <div class="display-plan">
+          <img src="./images/icon-music.svg" alt="icon-music" />
+          <div id="price">
+            <h2>Annual Plan</h2>
+            <p>$59.99/year</p>
+          </div>
+        </div>
 
-    </div>
-
-<div class="change" role="option">
-   
-    <select name="plans" id="available-plans" >
-        <option value="change" hidden>Change</option>
-    </select>
-</div>
-</div>
-<button type="submit" class="payment-btn">Proceed to Payment</button>
-<button class="cancel-order">Cancel Order</button>
-
+        <select name="plan-selected" id="available-plans">
+          <option value="change" hidden>Change</option>
+        </select>
+      </div>
+      <button type="submit" class="payment-btn">Proceed to Payment</button>
+      <button class="cancel-order">Cancel Order</button>
     </main>
-  
- 
-</body>
+  </body>
 </html>
